@@ -54,6 +54,6 @@ app.use(notFound);
 app.use(errorHandler);
 
 // for running the server
-app.listen(port, () => {
-  console.log(`server is successfully running on port: ${port}`);
-});
+app.listen(port, () =>
+  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${port}`)
+);
