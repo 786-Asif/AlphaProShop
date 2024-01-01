@@ -19,7 +19,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// cookie parser middleware
+// cookie parser middleware 
 app.use(cookieParser());
 
 app.use("/api/products", productRoutes);
