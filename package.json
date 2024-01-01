@@ -1,0 +1,37 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "ecommerce application built with the MERN Stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "data:import": "node backend/seeder.js",
+    "data:destroy": "node backend/seeder.js -d",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "mohammad Asif",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "@types/express": "^4.17.21",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "markdown-toc": "^1.2.0",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "webpack": "^5.89.0"
+  }
+}
