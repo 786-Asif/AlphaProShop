@@ -77,18 +77,18 @@ const products = [
       rating: 4,
       numReviews: 21,
     },
-    // {
-    //   // _id: '7',
-    //    name: 'Samsung galaxy s24 ultra',
-    //    image: '/images/samsung.jpg',
-    //    description:'the Samsung Galaxy S24 Ultra, could come equipped with a titanium frame, aligning with the build quality of its competitors, the iPhone 15 Pro and iPhone 15 Pro Max.',
-    //    brand: 'Amazon',
-    //    category: 'Electronics',
-    //    price: 1899.99,
-    //    countInStock: 10,
-    //    rating: 4.9,
-    //    numReviews: 21,
-    //  },
+    {
+      // _id: '7',
+       name: 'Samsung galaxy s24 ultra',
+       image: '/images/samsung.jpg',
+       description:'the Samsung Galaxy S24 Ultra, could come equipped with a titanium frame, aligning with the build quality of its competitors, the iPhone 15 Pro and iPhone 15 Pro Max.',
+       brand: 'Amazon',
+       category: 'Electronics',
+       price: 1899.99,
+       countInStock: 10,
+       rating: 4.9,
+       numReviews: 21,
+     },
    
   ]
   
