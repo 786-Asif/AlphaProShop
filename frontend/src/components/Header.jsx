@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { useLogoutMutation } from '../slices/usersApiSlice';
 import { logout } from '../slices/authSlice';
 import SearchBox from './SearchBox';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo2.png';
 import { resetCart } from '../slices/cartSlice';
 
 const Header = () => {
@@ -37,8 +37,8 @@ const Header = () => {
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-              <img src={logo} alt='ProShop' />
-              ProShop
+              <img src={logo} alt='AlphaProShop' />
+             <span style={{fontSize:"25px",fontWeight:'bolder',marginLeft:"-42px",fontStyle:"italic"}}> AlphaProShop</span>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
